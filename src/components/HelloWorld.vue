@@ -1,11 +1,10 @@
 <template>
   <div class="hello">
+    <h1>{{ msg }}</h1>
     <button v-if="!authenticated" @click="login">Login</button>
     <div v-if="authenticated">
       <button @click="logout">Logout</button>
       <h1>Hei, {{ firstName }}!</h1>
-
-      <h1>{{ msg }}</h1>
     </div>
   </div>
 </template>
