@@ -4,6 +4,7 @@
     <div v-if="authenticated">
       <button @click="logout">Logout</button>
       <h1>Hi {{ firstName }}!</h1>
+
       <h1>{{ msg }}</h1>
       <p>
         For a guide and recipes on how to configure / customize this project,
